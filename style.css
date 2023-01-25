@@ -1,0 +1,96 @@
+:root {
+    --blue: #4deef7;
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey: #757575;
+    --maxwidth: 1200px; 
+    --rootsize: 20px;
+}
+/*--*/
+
+body {
+    background-color: var(--white);
+    color: var(--grey);
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--rootsize);
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+div.container{
+  width: 100%;
+  max-width: var(--maxwidth);
+  margin: 0 auto;
+  background-color: var(--white);
+  overflow: hidden;
+  position: relative;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--grey);
+    padding: 0px 10px 5px 20px;
+    margin-top: 15px;
+    margin-left: 250px;
+    margin-right: 0px;
+    width: 100%;
+    max-width: 47rem;
+    
+}
+
+
+nav.tab {
+    padding: 20px 250px;
+    display: inline-flex;
+    width: 100%;
+    transition: ease-in-out .4s;
+    margin-right: 4rem;
+    text-align:start;
+  }
+  
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    justify-content: space-between;
+  }
+  .tab button {
+    cursor: pointer;
+    padding: 25px 45px;
+    transition: 0.3s;
+    text-align: center;
+    /*text-transform: uppercase;*/
+    color: var(--black);
+
+  }
+  
+  
+  .tab button:hover {
+    background-color: var(--blue);
+  }
+  
+  .tab button.active {
+    background-color: var(--blue);
+    color: var(--white);
+
+  }
+  
+  .tabcontent {
+    background: var(--white);
+    display: none;
+    padding: 30px 15px;
+    margin-left: 235px;
+    margin-right: 9.5rem;
+    margin-top: -20px;
+    border-top: 8px solid var(--blue);
+    border-bottom: 1px solid var(--grey);
+    border-right: 1px solid var(--grey);
+    border-left: 1px solid var(--grey);
+     
+  }
+  /*soure: https://www.w3schools.com/howto/howto_js_tabs.asp*/
