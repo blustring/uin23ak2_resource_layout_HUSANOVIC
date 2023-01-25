@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbeidskrav 2</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+      <header>
+          <h1>Ressursarkiv</h1>
+      </header>
+      <nav class="tab">
+        <button class="tablinks" onclick="clickable(event, 'HTML')">HTML</button>
+        <button class="tablinks" onclick="clickable(event, 'CSS')">CSS</button>
+        <button class="tablinks" onclick="clickable(event, 'JavaScript')">JavaScript</button>
+        <button class="tablinks" onclick="clickable(event, 'React')">React</button>
+        <button class="tablinks" onclick="clickable(event, 'Sanity and headless CMS')">Sanity and headless CMS</button>
+      </nav>
+
+      <main>
+      
+      <!-- Tab content -->
+      <div id="HTML" class="tabcontent">
+        <h3 id="htmlCat"></h3>
+          <p id="htmlText" ></p>
+            <ul>
+              <li><a id="htmlurl1" href="#"></a></li>
+              <li><a id="htmlurl2" href="#"></a></li>
+              <li><a id="htmlurl3" href="#"></a></li>
+             </ul> 
+        </div>        
+    
+        <div id="CSS" class="tabcontent">
+          <h3 id="cssCat"></h3>
+          <p id="cssText" ></p>
+            <ul>
+              <li><a id="cascade1" href="#"></a</li>
+              <li><a id="cascade2" href="#"></a></li>
+              <li><a id="cascade3" href="#"></a></li>
+              <li><a id="cascade4" href="#"></a></li>
+            </ul>
+        </div>  
+        
+      
+      <div id="JavaScript" class="tabcontent">
+        <h3 id="jvsCat"></h3>
+        <p id="jvsText"></p>
+        <ul>
+          <li><a id="jvs1" href="#"></a></li>
+          <li><a id="jvs2" href="#"></a></li>
+          <li><a id="jvs3" href="#"></a></li>
+
+        </ul>
+        </div>
+      
+      <div id="React" class="tabcontent">
+        <h3 id="reactCat"></h3>
+        <p id="reactText"></p>
+        <ul>
+          <li><a id="react1" href="#"></a></li>
+          <li><a id="react2" href="#"></a></li>
+          <li><a id="react3" href="#"></a></li>
+        </ul>
+        
+      </div>
+
+      <div id="Sanity and headless CMS" class="tabcontent">
+        <h3 id="sanityCat"></h3>
+        <p id="sanityText"></p>
+        <ul>
+          <li><a id="sanity1" href="#"></a></li>
+          <li><a id="sanity2" href="#"></a></li>
+          <li><a id="sanity3" href="#"></a></li>
+        </ul>
+      </div>
+
+      
+      <!--
+        Source: https://www.w3schools.com/howto/howto_js_tabs.asp
+      -->
+
+    </main>
+  </div>
+  
+  <script src="ressurser.js"></script>
+</body>
+</html>
